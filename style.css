@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&display=swap');
+font-family: 'Barlow Semi Condensed', sans-serif;
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    background: #cacaca59;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+
+.container{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 1245px;
+    height: 690px;
+    border-radius: 12px;
+    overflow: hidden;
+    
+}
+.top-section{
+    position: absolute;
+    display: flex;
+    
+}
+.bottom-section{
+    bottom: 0;
+    position: absolute;
+    display: flex;
+}
+.side-section{
+    right: 0;
+    position: absolute;
+    display: flex;
+}
+
+.daniel-card,.jonathan-card,.jeanette-card,.patrick-card,.kira-card{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(65, 64, 64);
+    padding: 0px 40px;
+    padding-top: 25px;
+    padding-bottom: 60px;
+    border-radius: 12px;
+    margin-top: 0px;
+    margin-left: 30px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.185);
+}
+.daniel-card,.jeanette-card{
+margin-left: 0px;
+}
+
+
+
+.daniel-card,.patrick-card{
+    width: 500px;
+    height: 250px;
+}
+
+.jonathan-card,.jeanette-card{
+width: 225px;
+height: 240px;
+
+
+}
+.daniel-card{
+    background-image: url(/images/bg-pattern-quotation.svg);
+    background-repeat: no-repeat;
+    background-position: top right 20%;
+    background-color: #733FC8;
+    
+    color: white;
+}
+.jonathan-card{
+    background-color: #49556B;
+    color: white;
+
+}
+.jeanette-card,.kira-card{
+    background-color: white;
+}
+
+.kira-card .paragraph-2{
+    color: rgba(0, 0, 0, 0.473);
+}
+.jeanette-card .profile-Verified{
+    color: black;
+
+}
+.jeanette-card .paragraph-1{
+    color: black;
+
+}
+.jeanette-card .paragraph-2{
+    color: black;
+
+}
+.patrick-card{
+    background-color: #18202D;
+    color: white;
+
+
+}
+
+.kira-card{
+    color: black;
+    width: 225px;
+    height: 605px;
+}
+
+.profile-info{
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.profile-avatar{
+    width: 40px;
+    border-radius: 100%;
+    border: 1px solid white;
+    vertical-align: middle;
+}
+.profile-text{
+    margin-left: 15px;
+    font-size: 15px;
+}
+.profile-Verified{
+    font-size: 12px;
+}
+
+.paragraph-1{
+    font-size: 23px;
+    margin-bottom: 20px;
+    font-weight: 500;
+    
+}
+
+.paragraph-2{
+    font-size: 14px;
+    margin-bottom: 20px;
+    font-weight: 500;
+    line-height: 23px;
+    color: rgba(255, 255, 255, 0.404);
+}
+.profile-Verified{
+    color: rgba(255, 255, 255, 0.514);
+}
